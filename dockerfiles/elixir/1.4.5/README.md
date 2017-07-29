@@ -3,8 +3,8 @@ Elixir on Alpine Linux
 
 Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 
-Elixir version: **1.4.1**
-Image size: **23.6 MB**
+Elixir version: **1.4.5**
+Image size: **23.7 MB**
 
 See [Erlang/Elixir on Alpine Linux](https://github.com/msaraiva/alpine-erlang) to learn more about creating **minimal Erlang/Elixir docker images with Alpine Linux**.
 
@@ -21,9 +21,9 @@ The following packages are pre-installed:
 
 ```
 $ docker run --rm -it aeons/elixir iex
-Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:4:4] [async-threads:10] [kernel-poll:false]
+Erlang/OTP 19 [erts-8.3] [source] [64-bit] [smp:4:4] [async-threads:10] [kernel-poll:false]
 
-Interactive Elixir (1.4.1) - press Ctrl+C to exit (type h() ENTER for help)
+Interactive Elixir (1.4.5) - press Ctrl+C to exit (type h() ENTER for help)
 iex(1)> IO.puts "Hello, world!"
 Hello, world!
 :ok

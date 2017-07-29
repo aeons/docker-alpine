@@ -1,7 +1,7 @@
-FROM aeons/erlang:19.1
+FROM aeons/erlang:19.3
 MAINTAINER Bjørn Madsen <bm@aeons.dk>
 
-ENV ELIXIR_VERSION 1.4.1
+ENV ELIXIR_VERSION 1.4.5
 
 RUN apk --no-cache add --virtual build-dependencies wget ca-certificates && \
     wget --no-check-certificate https://github.com/elixir-lang/elixir/releases/download/v${ELIXIR_VERSION}/Precompiled.zip && \
